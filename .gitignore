@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Personal project-specific overrides — do not commit
+.claude/CLAUDE.local.md

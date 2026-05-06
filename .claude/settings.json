@@ -1,0 +1,25 @@
+{
+  "model": "claude-sonnet-4-20250514",
+  "context_files": [
+    "CLAUDE.md",
+    "rules/architecture.md",
+    "rules/coding-standards.md",
+    "rules/security.md",
+    "rules/api-standards.md",
+    "rules/database.md",
+    "rules/testing.md"
+  ],
+  "auto_include_agents": false,
+  "enable_hooks": true,
+  "hooks": {
+    "pre_generation": "hooks/pre-generation.md",
+    "post_generation": "hooks/post-generation.md"
+  },
+  "max_tokens": 8096,
+  "temperature": 0.2,
+  "notes": {
+    "framework_rules": "Claude auto-detects from composer.json and loads laravel.md / symfony.md / php-core.md",
+    "skills": "Routed by framework: skills/laravel/ | skills/symfony/ | skills/core-php/ | skills/shared/",
+    "templates": "Routed by framework: templates/laravel/ | templates/symfony/ | templates/core-php/ | templates/shared/"
+  }
+}
