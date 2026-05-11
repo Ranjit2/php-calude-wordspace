@@ -216,5 +216,4 @@ Keep examples generic — use `{Name}`, `{Resource}`, `{table}` as placeholders.
 ## License
 
 MIT
-# php-calude-wordspace
-# php-calude-wordspace
+
